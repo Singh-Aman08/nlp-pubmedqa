@@ -102,3 +102,10 @@ The initial hypothesis that contextual embeddings would outperform static embedd
 ## Limitations
 
 This study has several limitations that may have influenced the results. The dataset size is relatively small, which limits the ability of complex models such as neural networks and transformers to fully learn robust patterns. There is also a noticeable class imbalance, particularly for the "Maybe" class, which leads to biased predictions toward the majority class and lowers macro-level performance. The ANN architecture used is relatively simple and may not fully capture complex patterns in the data. Finally, limited hyperparameter tuning was performed due to computational constraints, which may have affected the performance of models such as XGBoost and ANN.
+## Conclusion
+
+This study presented a comparative analysis of TF-IDF, Word2Vec, and SciBERT-based representations combined with Logistic Regression, SVM, XGBoost, ANN, and fine-tuned BERT for multi-class text classification on the PubMedQA dataset. The results show that traditional methods such as TF-IDF combined with models like XGBoost and SVM performed competitively with more advanced embedding-based and transformer approaches.
+
+While contextual embeddings and fine-tuned BERT offered more balanced performance across classes, they did not consistently outperform simpler TF-IDF-based models in terms of overall accuracy. This highlights that model effectiveness depends not only on complexity but also on dataset characteristics such as size and class distribution.
+
+Overall, the study demonstrates that strong baseline methods remain highly effective for biomedical text classification, and that empirical evaluation is essential to determine the most suitable approach for a given task.
