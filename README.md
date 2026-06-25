@@ -137,4 +137,3 @@ embeddings/
 
 ```
 
-The project is structured to separate raw data, embeddings, notebooks, and results for better organization and reproducibility.
