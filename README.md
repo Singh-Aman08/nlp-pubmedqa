@@ -109,3 +109,33 @@ This study presented a comparative analysis of TF-IDF, Word2Vec, and SciBERT-bas
 While contextual embeddings and fine-tuned BERT offered more balanced performance across classes, they did not consistently outperform simpler TF-IDF-based models in terms of overall accuracy. This highlights that model effectiveness depends not only on complexity but also on dataset characteristics such as size and class distribution.
 
 Overall, the study demonstrates that strong baseline methods remain highly effective for biomedical text classification, and that empirical evaluation is essential to determine the most suitable approach for a given task.
+
+## Repository Structure
+
+The repository is organized as follows:
+
+data/
+│── data.parquet
+│── train.parquet
+│── val.parquet
+│── test.parquet
+
+embeddings/
+│── embeddings_pubmedqa_train.npz
+│── embeddings_pubmedqa_val.npz
+│── embeddings_pubmedqa_test.npz
+
+notebooks/
+│── Exploratory_Data_Analysis.ipynb
+│── Text_Representations.ipynb
+│── Model_Training_and_Evaluation.ipynb
+│── Bert_training_and_evaluation.ipynb
+│── task1_pubmedqa.ipynb
+
+results/
+│── Heatmap.png
+
+README.md
+
+
+The project is structured to separate raw data, precomputed embeddings, experimental notebooks, and final results for better organization, clarity, and reproducibility.
