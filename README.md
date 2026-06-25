@@ -136,4 +136,9 @@ embeddings/
 
 
 ```
+## Author
+
+**Aman Kumar Singh**  
+MSc Data Science  
+University of Bristol
 
