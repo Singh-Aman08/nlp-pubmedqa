@@ -64,3 +64,21 @@ These metrics are used to compare the effectiveness of different embeddings and 
 
 The performance of different text representations and classification models was evaluated using accuracy, macro F1-score, macro recall and macro precision. Macro F1-score is particularly important in this study because the dataset exhibits class imbalance and some models struggled to correctly classify the minority "Maybe" class.
 
+### Performance Summary
+
+| Model | Embedding | Accuracy | Macro Precision | Macro Recall | Macro F1 |
+|---------|------------|----------|----------|----------|----------|
+| Logistic Regression | TF-IDF | 0.57 | 0.52 | 0.35 | 0.28 |
+| Logistic Regression | Word2Vec | 0.56 | 0.41 | 0.35 | 0.27 |
+| Logistic Regression | SciBERT Embeddings | 0.55 | 0.43 | 0.42 | 0.42 |
+| SVM | TF-IDF | 0.58 | 0.37 | 0.39 | 0.37 |
+| SVM | Word2Vec | 0.51 | 0.48 | 0.38 | 0.38 |
+| SVM | SciBERT Embeddings | 0.52 | 0.40 | 0.40 | 0.40 |
+| XGBoost | TF-IDF | 0.59 | 0.37 | 0.40 | 0.37 |
+| XGBoost | Word2Vec | 0.50 | 0.32 | 0.36 | 0.34 |
+| XGBoost | SciBERT Embeddings | 0.55 | 0.35 | 0.36 | 0.33 |
+| ANN | TF-IDF | 0.36 | 0.30 | 0.33 | 0.23 |
+| ANN | Word2Vec | 0.55 | 0.18 | 0.33 | 0.24 |
+| ANN | SciBERT Embeddings | 0.55 | 0.18 | 0.33 | 0.24 |
+| Fine-Tuned BERT | End-to-End | 0.56 | 0.36 | 0.40 | 0.38 |
+
