@@ -82,3 +82,7 @@ The performance of different text representations and classification models was 
 | ANN | SciBERT Embeddings | 0.55 | 0.18 | 0.33 | 0.24 |
 | Fine-Tuned BERT | End-to-End | 0.56 | 0.36 | 0.40 | 0.38 |
 
+## Macro F1 Heatmap
+
+![Macro F1 Heatmap](Heatmap.png)
+
