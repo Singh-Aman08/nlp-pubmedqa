@@ -13,3 +13,13 @@ The study aims to understand how different feature extraction methods and models
 - To fine-tune a pretrained BERT model for text classification.
 - To analyze the impact of contextual embeddings versus traditional embeddings.
 - To compare all models using standard evaluation metrics such as accuracy, precision, recall, and F1-score.
+
+## Dataset
+
+This project uses the **PubMedQA dataset**, a biomedical question answering dataset designed for research in natural language processing within the medical domain. The dataset is available at: https://pubmedqa.github.io/
+
+PubMedQA consists of questions derived from PubMed abstracts, along with corresponding answers and contextual evidence. Each sample typically includes a biomedical question and a label indicating the answer type, commonly structured as **Yes / No / Maybe** for classification tasks.
+
+The dataset is widely used for evaluating models on scientific and biomedical reasoning tasks, making it suitable for testing both traditional machine learning methods and advanced transformer-based models like BERT.
+
+In this project, the dataset is used for multi-class text classification after appropriate preprocessing, where textual inputs are converted into numerical representations using TF-IDF, Word2Vec, and BERT embeddings before being passed to different classification models.
