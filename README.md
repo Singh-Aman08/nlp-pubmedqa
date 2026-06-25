@@ -85,4 +85,5 @@ The performance of different text representations and classification models was 
 ## Macro F1 Heatmap
 
 ![Macro F1 Heatmap](Heatmap.png)
+Fine-Tuned BERT Macro F1: 0.38
 
