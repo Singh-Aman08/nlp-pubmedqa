@@ -114,6 +114,7 @@ Overall, the study demonstrates that strong baseline methods remain highly effec
 
 The repository is organized as follows:
 
+```text
 data/
 │── data.parquet
 │── train.parquet
@@ -125,17 +126,15 @@ embeddings/
 │── embeddings_pubmedqa_val.npz
 │── embeddings_pubmedqa_test.npz
 
-notebooks/
 │── Exploratory_Data_Analysis.ipynb
+│── Heatmap.png
 │── Text_Representations.ipynb
 │── Model_Training_and_Evaluation.ipynb
 │── Bert_training_and_evaluation.ipynb
 │── task1_pubmedqa.ipynb
 
-results/
-│── Heatmap.png
-
-README.md
 
 
-The project is structured to separate raw data, precomputed embeddings, experimental notebooks, and final results for better organization, clarity, and reproducibility.
+```
+
+The project is structured to separate raw data, embeddings, notebooks, and results for better organization and reproducibility.
