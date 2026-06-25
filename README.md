@@ -49,3 +49,14 @@ The project follows a structured pipeline for text classification:
 
 ### 5. Evaluation
 - Models are evaluated and compared using standard performance metrics such as accuracy, precision, recall, and F1-score
+
+## Evaluation Metrics
+
+The performance of all models is evaluated using the following metrics:
+
+- Accuracy: Measures the proportion of correctly classified samples.
+- Precision: Measures the correctness of positive predictions.
+- Recall: Measures the ability of the model to identify all relevant instances.
+- F1-Score: Harmonic mean of precision and recall, used for balanced evaluation.
+
+These metrics are used to compare the effectiveness of different embeddings and models across the classification task.
