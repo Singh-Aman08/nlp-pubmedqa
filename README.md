@@ -60,3 +60,7 @@ The performance of all models is evaluated using the following metrics:
 - F1-Score: Harmonic mean of precision and recall, used for balanced evaluation.
 
 These metrics are used to compare the effectiveness of different embeddings and models across the classification task.
+## Results
+
+The performance of different text representations and classification models was evaluated using accuracy, macro F1-score, macro recall and macro precision. Macro F1-score is particularly important in this study because the dataset exhibits class imbalance and some models struggled to correctly classify the minority "Maybe" class.
+
