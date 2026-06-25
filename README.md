@@ -5,3 +5,11 @@ This project focuses on a comparative analysis of different text representation 
 We explore traditional methods such as TF-IDF and Word2Vec, as well as contextual embeddings generated using BERT. These representations are evaluated using multiple classifiers including Logistic Regression, Support Vector Machine (SVM), XGBoost, and an Artificial Neural Network (ANN). Additionally, a fine-tuned BERT model is used to assess the performance of transformer-based approaches.
 
 The study aims to understand how different feature extraction methods and models influence classification performance on the same dataset.
+## Objectives
+
+- To compare TF-IDF, Word2Vec, and BERT-based text representations.
+- To evaluate the performance of classical machine learning models such as Logistic Regression, SVM, and XGBoost.
+- To implement and assess a deep learning-based Artificial Neural Network (ANN).
+- To fine-tune a pretrained BERT model for text classification.
+- To analyze the impact of contextual embeddings versus traditional embeddings.
+- To compare all models using standard evaluation metrics such as accuracy, precision, recall, and F1-score.
